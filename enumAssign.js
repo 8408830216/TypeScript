@@ -5,6 +5,7 @@ var Gender;
 })(Gender || (Gender = {}));
 ;
 console.log(Gender);
+console.log("-----------------------------------");
 var Direction;
 (function (Direction) {
     Direction[Direction["north"] = 0] = "north";
@@ -14,6 +15,7 @@ var Direction;
 })(Direction || (Direction = {}));
 ;
 console.log(Direction);
+console.log("-----------------------------------");
 var UserResponce;
 (function (UserResponce) {
     UserResponce[UserResponce["yes"] = 0] = "yes";
@@ -21,12 +23,14 @@ var UserResponce;
 })(UserResponce || (UserResponce = {}));
 ;
 console.log(UserResponce);
+console.log("-----------------------------------");
 var Responce;
 (function (Responce) {
     Responce[Responce["submit"] = 0] = "submit";
     Responce[Responce["cancel"] = 1] = "cancel";
 })(Responce || (Responce = {}));
 console.log(Responce);
+console.log("-----------------------------------");
 var Alphabates;
 (function (Alphabates) {
     Alphabates[Alphabates["x"] = 0] = "x";

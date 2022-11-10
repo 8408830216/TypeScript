@@ -3,6 +3,7 @@ enum Gender {
     male
 };
 console.log(Gender);
+console.log("-----------------------------------");
 
 enum Direction{
     north,
@@ -11,19 +12,19 @@ enum Direction{
     west
 };
 console.log(Direction);
-
+console.log("-----------------------------------");
 enum UserResponce{
     yes,
     no
 };
 console.log(UserResponce);
-
+console.log("-----------------------------------");
 enum Responce{
     submit,
     cancel
 }
 console.log(Responce);
-
+console.log("-----------------------------------");
 enum Alphabates{
     x,
     y,
