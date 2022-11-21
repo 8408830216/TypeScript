@@ -13,7 +13,7 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-console.log("=============================1st Practice======================================");
+console.log("=============================1st Way======================================");
 var Person1 = /** @class */ (function () {
     function Person1() {
     }
@@ -64,7 +64,7 @@ m.work();
 p.work();
 q.work();
 r.work();
-console.log("=============================2nd Practice======================================");
+console.log("=============================2nd Way======================================");
 var Person = /** @class */ (function () {
     function Person() {
     }

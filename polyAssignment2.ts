@@ -1,42 +1,64 @@
-class Organizer {
-    public id:number;
-    public name:string;
-    constructor(id:number,name:string){
-        this.id=id;
-        this.name=name;
+class Managements {
+    public id: number;
+    public name: string;
+    public description: string;
+    public startTime: any;
+    public address: string;
+
+    public display(): void {
+         // console.log(`Organizer details id-${this.id}  name-${this.name}`); 
     }
 };
-let objOrganizer=new Organizer(1234,"Prashant Patil")
-console.log(`Id:-${objOrganizer.id}  Name :- ${objOrganizer.name}`);
+class Organizer extends Managements {
+    public id: number;
+    public name: string;
+    constructor(id: number, name: string) {
+         super()
+         this.id = id;
+         this.name = name;
+    }
 
+    public display(): void {
+         super.display()
+         console.log(`Id:-${this.id} Name:-${this.name}`);
 
-class Events {
-    public id:number;
-    public name:string;
-    public description:string;
-    public startTime:any;
-    constructor(id:number,name:string,description:string,startTime:any){
-        this.id=id;
-        this.name=name;
-        this.description=description;
-        this.startTime=startTime
+    }
+};
+class Events extends Managements {
+    description: string;
+    startTime: any;
+    constructor(id: number, name: string, description: string, startTime: any) {
+         super()
+         this.id = id;
+         this.name = name;
+         this.description = description;
+         this.startTime = startTime;
     };
-};
+    public display(): void {
+         super.display()
+         console.log(`Id:-${this.id}  Name:-${this.name}  Description:-${this.description}  StartTime:-${this.startTime}`);
 
-let objEvent=new Events(2244,"Shon Patil","Sports day celebration","04:00PM")
-console.log(`Id:-${objEvent.id}  Name:-${objEvent.name}  Description:-${objEvent.description}  startTime:-${objEvent.startTime}`);
-
-class Venue {
-    public id:number;
-    public name:string;
-    public description:string;
-    public address:string;
-    constructor(id:number,name:string,description:string,address:string){
-        this.id=id;
-        this.name=name;
-        this.description=description;
-        this.address=address
     }
 };
-let objVenue=new Venue(87544,"Prashant Mali","Sports day celebration","Balewadi Stadium Pune")
-console.log(`Id:-${objVenue.id}  Name:-${objVenue.name}  Description:-${objVenue.description}  Address:-${objVenue.address}`);
+class Venue extends Managements {
+
+    description: string;
+    address: string;
+    constructor(id: number, name: string, description: string, address: string) {
+         super()
+         this.id = id;
+         this.name = name;
+         this.description = description;
+         this.address = address;
+    };
+    public display(): void {
+         super.display()
+         console.log(`Id:-${this.id}  Name:-${this.name}  Description:-${this.description}  Address:-${this.address}`);
+
+    }
+};
+let newObj: Managements[] = new Array(new Organizer(2233, "Prashant"), new Events(2410, "Rohit Organizers", "Sports day Celebration", "10:00PM"), new Venue(8745, "Virat Organizers", "Sports day Celebration", "Balewadi Stadium Pune"));
+for (const orgz of newObj) {
+    orgz.display();
+
+}

@@ -1,4 +1,4 @@
-console.log("=============================1st Practice======================================");
+console.log("=============================1st Way======================================");
 class Person1 {
     work(){
         console.log("Person name is Prashant Patil");  
@@ -28,7 +28,7 @@ p.work();
 q.work();
 r.work();
 
-console.log("=============================2nd Practice======================================");
+console.log("=============================2nd Way======================================");
 
 class Person{
     work:string;
