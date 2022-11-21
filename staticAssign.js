@@ -5,15 +5,19 @@ var Calculator = /** @class */ (function () {
     Calculator.addition = function (numAdd1, numAdd2) {
         return numAdd1 + numAdd2;
     };
+    ;
     Calculator.substract = function (numSub1, numSub2) {
         return numSub1 - numSub2;
     };
+    ;
     Calculator.multiplication = function (numMul1, numMul2) {
         return numMul1 * numMul2;
     };
+    ;
     Calculator.division = function (numDiv1, numDiv2) {
         return numDiv1 / numDiv2;
     };
+    ;
     return Calculator;
 }());
 ;

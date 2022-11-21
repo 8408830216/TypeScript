@@ -1,5 +1,5 @@
 class Student {
-    private _userName: string;  //we hide the username purposefully
+    private _userName: string;  //we hide the username purposefully.
     get name() : string {
         // format
         return this._userName;
@@ -11,5 +11,5 @@ class Student {
         console.log(this._userName);}
     }
     var objstudent = new Student();
-    objstudent.name = "Codemind";
+    objstudent.name = "Codemind Technology";  
     console.log(objstudent.name);

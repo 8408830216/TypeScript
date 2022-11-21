@@ -18,5 +18,5 @@ var Student = /** @class */ (function () {
     return Student;
 }());
 var objstudent = new Student();
-objstudent.name = "Codemind";
+objstudent.name = "Codemind Technology";
 console.log(objstudent.name);

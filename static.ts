@@ -1,5 +1,5 @@
 class Check{
-    static bankName:string="Bank Of India";
+    static bankName:string="Bank Of Maharashtra";
     customerName:string;
     accNo:number;
     display(){
@@ -13,3 +13,4 @@ var objName=new Check();
 //into the class
 objName.display();
 
+   

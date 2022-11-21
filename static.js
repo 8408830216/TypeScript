@@ -6,7 +6,7 @@ var Check = /** @class */ (function () {
         console.log(Check.bankName); //to access the static bankname we implement this display
     };
     ;
-    Check.bankName = "Bank Of India";
+    Check.bankName = "Bank Of Maharashtra";
     return Check;
 }());
 ;
