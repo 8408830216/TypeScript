@@ -9,5 +9,6 @@ var Flight = /** @class */ (function () {
     };
     return Flight;
 }());
+;
 var objFlight = new Flight(123, "Mumbai", "UK");
 objFlight.display();

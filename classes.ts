@@ -18,7 +18,7 @@ class Flight implements IFlight {
         console.log(this.flightNo, this.from, this.to);
         
     }
-}
+};
 
 var objFlight = new Flight(123, "Mumbai", "UK");
 objFlight.display();
