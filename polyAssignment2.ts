@@ -20,7 +20,7 @@ class Events {
         this.name=name;
         this.description=description;
         this.startTime=startTime
-    }
+    };
 };
 
 let objEvent=new Events(2244,"Shon Patil","Sports day celebration","04:00PM")

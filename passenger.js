@@ -18,3 +18,4 @@ for (var items in passenger) {
     console.log(items); //it will return the properties and method names
     console.log(passenger[items]); //it will return the values and whole method
 }
+;

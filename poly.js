@@ -40,6 +40,7 @@ var Manger = /** @class */ (function (_super) {
     };
     return Manger;
 }(Employee));
+;
 var Lead = /** @class */ (function (_super) {
     __extends(Lead, _super);
     // constructor 

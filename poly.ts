@@ -9,7 +9,7 @@ class Employee {
 }
 
 class Manger extends Employee {
-
+    
     // constructor 
     constructor(firstName: string, lastName: string, designation: string) {
         // calling parent class constructor.
@@ -23,7 +23,7 @@ class Manger extends Employee {
         super.Print()
         console.log(`${this.firstName} ${this.lastName} - ${this.designation}`);
     }
-}
+};
 
 class Lead extends Employee {
 

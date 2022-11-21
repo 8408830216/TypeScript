@@ -33,6 +33,7 @@ var Student1 = /** @class */ (function (_super) {
     };
     return Student1;
 }(Person1));
+;
 var Employee = /** @class */ (function (_super) {
     __extends(Employee, _super);
     function Employee() {
@@ -43,6 +44,7 @@ var Employee = /** @class */ (function (_super) {
     };
     return Employee;
 }(Person1));
+;
 var Trainer = /** @class */ (function (_super) {
     __extends(Trainer, _super);
     function Trainer() {
@@ -53,6 +55,7 @@ var Trainer = /** @class */ (function (_super) {
     };
     return Trainer;
 }(Person1));
+;
 var m = new Person1();
 var p = new Student1();
 var q = new Employee();

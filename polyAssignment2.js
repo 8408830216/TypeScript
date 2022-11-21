@@ -15,6 +15,7 @@ var Events = /** @class */ (function () {
         this.description = description;
         this.startTime = startTime;
     }
+    ;
     return Events;
 }());
 ;

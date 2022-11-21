@@ -8,17 +8,17 @@ class Student1 extends Person1{
     work(){
         console.log("He is a student");   
     }
-}
+};
 class Employee extends Person1{
     work(){
         console.log("He is an Employee");    
     }
-}
+};
 class Trainer extends Person1{
     work(){
         console.log("He is a Trainer");   
     }
-}
+};
 let m=new Person1();
 let p=new Student1();
 let q=new Employee();

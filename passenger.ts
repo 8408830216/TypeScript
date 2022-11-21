@@ -23,4 +23,4 @@ for (let items in passenger) {
     console.log(passenger[items]);  //it will return the values and whole method
     
     
-}
+};
