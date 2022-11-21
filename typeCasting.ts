@@ -6,6 +6,6 @@ interface IEmployee {
     lastname: string;
 }
 let e1: IEmployee;
-let e2 = { id: 123, name: "John"};
+let e2 = { id: 123, name: "Johns"};
 //e1 = e2 ; // type casting 
 //e2 = e1; //   
